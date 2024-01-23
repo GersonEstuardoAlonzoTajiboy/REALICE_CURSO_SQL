@@ -1,0 +1,17 @@
+CURSO DE SQL 
+
+1. SELECT: 
+  La palabra reservada SELECT se utiliza para recuperar datos de una o mas tablas en una base de datos.
+  Es fundamental en SQL ya que especifica las columnas que deseas obtener en los resultados de la consulta. 
+
+2. FROM: 
+  La clausala FROM se utiliza para indicar de que tabla o tablas se deben extraer los datos. 
+  Es esencial para establecer el contexto de la consulta y especificar la fuente de los datos que se van a seleccionar. 
+
+3. * 
+  El asterisco (*) se utiliza como comodin para representar todas las columnas de una tabla en la consulta. SELECT * FROM asistentes
+  recuperaria todas las columnas de la tabla asistentes. 
+
+4. AS: 
+  AS se usa para renombrar columnas o tablas en los resultados de la consulta. Es util para asignar nombres mas descriptivos 
+  a las columnas o para cambiar el nombre de una tabla temporalmente durante la consulta. 
