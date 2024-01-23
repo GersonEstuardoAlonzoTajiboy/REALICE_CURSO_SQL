@@ -1,17 +1,117 @@
-CURSO DE SQL 
+1. SELECT:
+  La palabra reservada SELECT se utiliza para recuperar datos de una o más tablas en una base de datos. 
+  Es fundamental en SQL ya que especifica las columnas que deseas obtener en los resultados de la consulta.
 
-1. SELECT: 
-  La palabra reservada SELECT se utiliza para recuperar datos de una o mas tablas en una base de datos.
-  Es fundamental en SQL ya que especifica las columnas que deseas obtener en los resultados de la consulta. 
+2. FROM:
+  La cláusula FROM se utiliza para indicar de qué tabla o tablas se deben extraer los datos. 
+  Es esencial para establecer el contexto de la consulta y especificar la fuente de los datos que se van a seleccionar.
 
-2. FROM: 
-  La clausala FROM se utiliza para indicar de que tabla o tablas se deben extraer los datos. 
-  Es esencial para establecer el contexto de la consulta y especificar la fuente de los datos que se van a seleccionar. 
+3. * (Asterisco):
+  El asterisco (*) se utiliza como comodín para representar todas las columnas de una tabla en la consulta.
 
-3. * 
-  El asterisco (*) se utiliza como comodin para representar todas las columnas de una tabla en la consulta. SELECT * FROM asistentes
-  recuperaria todas las columnas de la tabla asistentes. 
+4. AS:
+  AS se usa para renombrar columnas o tablas en los resultados de la consulta. 
+  Es útil para asignar nombres más descriptivos a las columnas o para cambiar el nombre de una tabla temporalmente durante la consulta.
 
-4. AS: 
-  AS se usa para renombrar columnas o tablas en los resultados de la consulta. Es util para asignar nombres mas descriptivos 
-  a las columnas o para cambiar el nombre de una tabla temporalmente durante la consulta. 
+5. WHERE:
+  La cláusula WHERE se utiliza para filtrar los resultados de una consulta según una condición específica.
+
+6. LIKE:
+  La expresión LIKE se utiliza junto con la cláusula WHERE 
+  para buscar un patrón en una columna.
+
+7. OR:
+  El operador lógico OR se utiliza en las condiciones de la cláusula WHERE 
+  para seleccionar registros que cumplan al menos una de las condiciones especificadas.
+
+8. AND:
+  El operador lógico AND se utiliza en las condiciones de la cláusula WHERE 
+  para seleccionar registros que cumplan simultáneamente varias condiciones.
+
+9. IS NULL:
+  La expresión IS NULL se utiliza en la cláusula WHERE 
+  para seleccionar registros donde el valor de una columna es nulo.
+
+10. IS NOT NULL:
+  La expresión IS NOT NULL se utiliza en la cláusula WHERE 
+  para seleccionar registros donde el valor de una columna no es nulo.
+
+11. ORDER BY:
+  La cláusula ORDER BY se utiliza para ordenar los resultados de una consulta en función de una o más columnas. 
+  Puede ordenar de forma ascendente (ASC) o descendente (DESC).
+
+12. ASC:
+  ASC es una palabra clave utilizada en la cláusula ORDER BY para indicar un orden ascendente. 
+  Por defecto, si no se especifica ASC o DESC, se asume el orden ascendente.
+
+13. DESC:
+  DESC es una palabra clave utilizada en la cláusula ORDER BY para indicar un orden descendente. 
+  Se utiliza para ordenar los resultados de manera inversa al orden ascendente.
+
+14. NULLS LAST:
+  NULLS LAST es una especificación opcional en la cláusula ORDER BY que se utiliza para colocar los valores NULL al final de la lista ordenada. 
+
+15. LIMIT:
+  La cláusula LIMIT se utiliza para limitar la cantidad de filas devueltas por una consulta. 
+
+16. UPPER:
+  La función UPPER se utiliza para convertir una cadena de texto a mayúsculas.
+
+17. LOWER:
+  La función LOWER se utiliza para convertir una cadena de texto a minúsculas.
+
+18. TRIM:
+  La función TRIM se utiliza para eliminar espacios en blanco al principio y al final de una cadena de texto.
+
+19. LENGTH:
+  La función LENGTH se utiliza para obtener la longitud (cantidad de caracteres) de una cadena de texto.
+
+20. SUBSTR:
+  La función SUBSTR se utiliza para extraer una parte específica de una cadena de texto.
+
+21. CONCATENACIÓN:
+  La concatenación se refiere a la combinación de dos o más cadenas de texto en una única cadena más larga. En SQL, se realiza con el operador ||.
+
+22. DATE:
+  La función DATE se utiliza para obtener la fecha actual en SQL.
+
+23. STRFTIME:
+  La función STRFTIME se utiliza para formatear una fecha y hora según un formato especificado. 
+  En los ejercicios, se utiliza para extraer el año (`%Y`), el mes (`%m`), y el año y mes juntos (`%Y-%m`) de una fecha.
+
+24. NOW:
+  NOW es una función que devuelve la fecha y hora actuales.
+
+25. '-1 day':
+  Se utiliza para restar un día a la fecha actual.
+
+26. '+1 day':
+  Se utiliza para sumar un día a la fecha actual.
+
+27. MAX:
+  La función MAX se utiliza para obtener el valor máximo de una columna, en este caso, la edad.
+
+28. MIN:
+  La función MIN se utiliza para obtener el valor mínimo de una columna, en este caso, el sueldo.
+
+29. SUM:
+  La función SUM se utiliza para obtener la suma de los valores de una columna, en este caso, la suma de sueldos.
+
+30. AVG:
+  La función AVG se utiliza para obtener el promedio de los valores de una columna, en este caso, el promedio de sueldos.
+
+31. COUNT:
+  La función COUNT se utiliza para contar el número de filas en un conjunto de resultados, en este caso, el número de empleados.
+
+32. DISTINCT:
+  La palabra clave DISTINCT se utiliza en una consulta SELECT para eliminar filas duplicadas de los resultados, 
+  mostrando solo valores únicos en la columna especificada.
+
+33. GROUP BY:
+  La cláusula GROUP BY se utiliza para agrupar filas que tienen los mismos valores en una o más columnas. 
+  Se usa comúnmente con funciones de agregación como COUNT, SUM, AVG, entre otras.
+
+34. HAVING:
+  La cláusula HAVING se utiliza junto con la cláusula GROUP BY para filtrar resultados de una consulta basándose en valores agregados. 
+  Mientras que la cláusula WHERE filtra las filas antes de la agregación, 
+  la cláusula HAVING filtra los resultados agrupados después de la agregación.
