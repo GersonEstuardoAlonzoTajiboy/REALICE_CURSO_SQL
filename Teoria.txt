@@ -115,3 +115,10 @@
   La cláusula HAVING se utiliza junto con la cláusula GROUP BY para filtrar resultados de una consulta basándose en valores agregados. 
   Mientras que la cláusula WHERE filtra las filas antes de la agregación, 
   la cláusula HAVING filtra los resultados agrupados después de la agregación.
+
+35. Subconsultas:
+  Consultas anidadas dentro de otras consultas.
+
+36. IN:
+  Filtra resultados que coinciden con una lista de valores.
+  
