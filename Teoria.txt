@@ -116,9 +116,23 @@
   Mientras que la cláusula WHERE filtra las filas antes de la agregación, 
   la cláusula HAVING filtra los resultados agrupados después de la agregación.
 
-35. Subconsultas:
+35. SUBCONSULTAS:
   Consultas anidadas dentro de otras consultas.
 
 36. IN:
   Filtra resultados que coinciden con una lista de valores.
   
+37. UNION:
+  El operador UNION se utiliza para combinar los resultados de dos o más consultas SELECT en un solo conjunto de resultados. 
+  La principal característica de UNION es que elimina las filas duplicadas del resultado final. 
+
+38. UNION ALL:
+  El operador UNION se utiliza para combinar los resultados de dos o más consultas SELECT en un solo conjunto de resultados, eliminando las filas duplicadas.
+  Si queremos obtener las filas duplicadas en el resultado, utilizaremos el operador UNION ALL.
+
+39. INTERSECT: 
+  El operador INTERSECT se utiliza para combinar dos SELECT y devolver los resultados que se encuentran en ambas consultas.
+
+40. EXCEPT:
+  El operador EXCEPT en SQL se utiliza para devolver todas las filas en la primera consulta que no están presentes en la segunda consulta. 
+  En otras palabras, EXCEPT devuelve solo las filas, que son parte de la primera consulta pero no de la segunda consulta.
