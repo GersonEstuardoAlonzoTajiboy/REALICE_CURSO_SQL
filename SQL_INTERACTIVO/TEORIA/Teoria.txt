@@ -136,3 +136,9 @@
 40. EXCEPT:
   El operador EXCEPT en SQL se utiliza para devolver todas las filas en la primera consulta que no están presentes en la segunda consulta. 
   En otras palabras, EXCEPT devuelve solo las filas, que son parte de la primera consulta pero no de la segunda consulta.
+
+41: INSERT: 
+  La instruccion INSERT la acompañaremos de la palabra clave INTO para especificar en que tabla queremos insertar un valor y VALUES
+  para especificar los valores que queremos insertar. 
+
+ 
