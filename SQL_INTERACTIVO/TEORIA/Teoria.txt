@@ -141,4 +141,11 @@
   La instruccion INSERT la acompañaremos de la palabra clave INTO para especificar en que tabla queremos insertar un valor y VALUES
   para especificar los valores que queremos insertar. 
 
- 
+ 42: CARDINALIDAD: 
+  La cardinalidad de una relación es la cantidad de elementos de una tabla que puedan estar relacionados con los de otra tabla. 
+  Dependiendo de como se modelen las relaciones entre las tablas, se pueden tener relaciones de uno a uno, uno a muchos o muchos a muchos. 
+  En una relación uno a uno, un registro de una tabla, solo puede estar relacionado con un registro de la otra tabla. 
+  En una relación uno a muchos, un registro de una tabla puede estar relacionado con uno o varios registros de otra tabla. 
+  En una relación muchos a muchos, un registro de una tabla puede estar relacionado con uno o varios registros de otra tabla, y viceversa.
+  En bases de datos relacionales, con dos tablas solo podemos lograr relaciones de uno a uno o uno a muchos. Para lograr relaciones de 
+  muchos a muchos, se necesita una tabla intermedia. 
